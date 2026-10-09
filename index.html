@@ -15,32 +15,65 @@
         background-color: rgb(255, 193, 7);
         color: black;
         text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         padding: 3px;
         border-radius: 13px;
+    }
+
+    body{
+        background-image: url(https://images.pexels.com/photos/7438732/pexels-photo-7438732.jpeg);
+    }
+
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 23px;
+    }
+    li{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+    } 
+
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        margin-left: 10px;
     }
     #badminton {
         align-items: center;
     }
+    #foot {
+    background-color: rgb(225, 193, 7);     
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;                 
+    font-size: 23px;
+    text-align: center;          
+    padding: 15px;               
+    margin: 40px auto;            
+    border-radius: 10px;         
+    width: 85%;                  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    }
+
 </style>
 </head> 
 <body>
     <div class="container">
         <div class="row justify-content-center">
-            <h1>A Rookie's Guide to Badminton</h1>
+            <h1 class="display-5 fw-bold">A Rookie's Guide to Badminton</h1>
         </div>
+        <br>
 
-            <br>
-            <div class="position-relative">
-                <img src="https://images.pexels.com/photos/7438732/pexels-photo-7438732.jpeg" alt="badminton" id="badminton" 
-                 style="height:500px" width="1000px"; object-fit:cover; class="rounded shadow">
+            <div class="text-center">
+                <img src="https://media.istockphoto.com/id/1424816769/photo/close-up-of-shuttlecock-on-badminton-court.jpg?b=1&s=612x612&w=0&k=20&c=EYd86F5gQBNVIt4xbDYMUpZHKHnIbzG27o2ZXUtI7_A=" alt="badminton" id="badminton" 
+                 style="height:300px; width:700px; border-radius:50px;">
             </div>
             <br>
 
-        <div class="row-gap-3">
-            <div class="col">
-                <div class="bg-light text-dark">
-                <h2 class="bg-warning fw-bold">✩°｡⋆⸜ 📄✮ Basic Rules:</h2>
-                <ul class="small">
+        <div class="row row-g4">
+            <div class="col 12 col-md-4">
+                <div class="bg-light text-dark h-100">
+                <h2 class="bg-warning fw-bold fst-italic" id="rules">✩°｡⋆⸜ 📄✮ Basic Rules:</h2>
+                <ul>
                     <li>Serve diagonally</li>
                     <li>Score 21 points to win</li>
                     <li>Win by 2 points for a deuce</li>
@@ -50,10 +83,10 @@
                 </div>
             </div>
 
-            <div class="col">
-                <div class="bg-light text-dark">
-                <h2 class="bg-warning fw-bold">✩°｡⋆⸜ 🏸✮Badminton Equipment:</h2>
-                <ul class="small">
+            <div class="col 12 col-md-4">
+                <div class="bg-light text-dark h-100">
+                <h2 class="bg-warning fw-bold fst-italic" id="equipment">✩°｡⋆⸜ 🏸✮Equipment:</h2>
+                <ul>
                     <li>Racket</li>
                     <li>Shuttlecock</li>
                     <li>Net</li>
@@ -63,10 +96,10 @@
                 </div>
             </div>
 
-            <div class="col">
-                <div bg-light text-dark>
-                <h2 class="bg-warning fw-bold">✩°｡⋆⸜ 🎯✮Basic Techniques:</h2>
-                <ul class="small">
+            <div class="col 12 col-md-4">
+                <div class="bg-light text-dark h-100">
+                <h2 class="bg-warning fw-bold fst-italic" id="techniques">✩°｡⋆⸜ 🎯✮Basic Techniques:</h2>
+                <ul>
                     <li>Use grips like forehand or backhand</li>
                     <li>Make use of high & low serves</li>
                     <li>Be mindful of footwork & positioning</li>
@@ -76,6 +109,14 @@
                 </div>
             </div>
         </div>
+    </div>
+<footer id="foot">
+        @2026 Beginner's Guide to Sports Game | Created by Kaitlin Mediarito, 9-Emerald
+</footer>
+<!--
+References:
+1. Saif71.com. (n.d.). A close-up shot of a shuttlecock on a badminton court floor. Retrieved October 8, 2026. Pexels. 
+https://www.pexels.com/photoa-close-up-shot-of-a-shuttlecock-on-a-badminton-court-floor-7438732/  -->
 
 </body>
 </html>
